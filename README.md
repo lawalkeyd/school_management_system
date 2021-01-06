@@ -33,4 +33,16 @@ Collects teacher information
 ## Timetable
 Creates an automated timetable for the school. This timetable collects the information of teachers; their unavailable days, subjects they teach, number of times the subjects are taught and generates an automated timetable that does not overlap teachers or subjects
 
+# Project Name: School Management System Software
+
+## How To Setup On Linux
+1. Clone This Project `git clone https://github.com/lawalkeyd/school_management_system.git`
+2. Go To Project Directory `cd school_management_system`
+3. Create a Virtual Environment `virtualenv env`
+4. Activate Virtual Environment `source env/bin/activate`
+5. Install Requirements Package `pip install -r requirements.txt`
+6. Migrate Database `python manage.py migrate`
+7. Create Super User `python manage.py createsuperuser`
+8. Finally Run The Project `python manage.py runserver`
+
 ### This project was initially forked from sajib1066/school_management_system but has taken a completely different direction from what was done.
