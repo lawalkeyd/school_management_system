@@ -1,5 +1,3 @@
-# Project Name: School Management System Software
-
 # Project Name: The Concord School Management System Software
 
 ## Reason for Creating the School Management System
